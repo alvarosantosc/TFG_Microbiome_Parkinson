@@ -3,7 +3,6 @@ rm(list = ls())
 library(readr)
 library(dplyr)
 library(TwoSampleMR)
-library(ggforestplot)
 
 exp_data <- read.csv("format_IL17_exp.csv", sep = ";")
 exp_clump <- read.csv("IL17_clump.csv", sep = ";")
@@ -57,16 +56,3 @@ mr_results <- generate_odds_ratios(mr_results)
 mr_results <- subset(mr_results, select = -c(lo_ci,up_ci))
 
 write.csv2(mr_results, "../../../results/MR/mediation_IL17_PD_Nalls.csv", row.names = FALSE)
-
-###Plotting###
-ggforestplot::forestplot(
-  df = mr_results,
-  name = exposure,
-  estimate = b,
-  se = se,
-  pvalue = pval,
-  psignif = 0.05,
-  title = "IL17 related proteins associations with Parkinson's Disease risk",
-  xlab = "Odds ratio",
-  logodds = TRUE
-)
