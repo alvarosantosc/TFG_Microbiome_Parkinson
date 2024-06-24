@@ -4,9 +4,6 @@
 
 rm(list = ls())
 
-getwd()
-setwd("C:/Users/alvar/OneDrive - University College London/General - ALBA_ALVARO/Project/3.Analysis/data/1.Selection_GWAS/Microbiome/1.EFO_0007874")
-# setwd("C:/Users/rmjlaf0/OneDrive - University College London/General - ALBA_ALVARO/Project/3.Analysis/data/1.Selection_GWAS/Microbiome/1.EFO_0007874/")
 
 #Load libraries
 library(readr)
@@ -18,26 +15,19 @@ library(dplyr)
 #Read data
 #########################
 
-GWAS_microbiome <- read_tsv("GWAS microbiome_raw.tsv")
+GWAS_microbiome <- read_tsv("GWAS microbiome_raw.tsv") #Downloaded studies from GWAS Catalog EFO_0007874
 GWAS_microbiome <- as.data.frame(GWAS_microbiome)
 head(GWAS_microbiome)
 names(GWAS_microbiome)
-dim(GWAS_microbiome)
-
+rm(GWAS_microbiome)
+dim(GWAS)
 
 
 #########################
 #QC 
 #########################
 
-#Check if there are duplicated studies
 
-###I think this is supposed to eliminate the duplicates, but it did not reduce the number of rows
-GWAS <- GWAS_microbiome 
-# %>% 
-#   distinct(.keep_all = TRUE) #afs: done it below
-rm(GWAS_microbiome)
-dim(GWAS)
 
 length(levels(as.factor(GWAS$reportedTrait)))
 length(GWAS$reportedTrait) - length(levels(as.factor(GWAS$reportedTrait)))
