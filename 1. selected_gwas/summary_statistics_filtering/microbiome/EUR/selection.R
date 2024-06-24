@@ -6,7 +6,7 @@ library(dplyr)
 library(readxl)
 library(openxlsx)
 
-GWAS_1 <- read.csv2("GWAS 1 microbioma EU_raw.csv", skip = 2)
+GWAS_1 <- read.csv2("GWAS 1 microbioma EU_raw.csv", skip = 2) #Summary statistics from selected GWAS 1
 head(GWAS_1)
 names(GWAS_1)
 
@@ -41,7 +41,7 @@ write.csv2(GWAS_1_fil,"GWAS 1 microbioma filtrado.csv")
 
 
 
-GWAS_2 <- read.csv2("GWAS 2 microbioma EU_raw.csv", skip = 2)
+GWAS_2 <- read.csv2("GWAS 2 microbioma EU_raw.csv", skip = 2) #Summary statistics from selected GWAS 2
 head(GWAS_2)
 names(GWAS_2)
 
@@ -87,7 +87,7 @@ write.csv2(GWAS_2_fil_b,"GWAS 2 microbioma filtrado.csv")
 
 
 
-GWAS_3 <- read.csv2("GWAS 3 microbioma EU_raw.csv",skip = 4)
+GWAS_3 <- read.csv2("GWAS 3 microbioma EU_raw.csv",skip = 4) #Summary statistics from selected GWAS 3
 head(GWAS_3)
 names(GWAS_3)
 
@@ -106,7 +106,7 @@ write.csv2(GWAS_3_p,"GWAS 3 microbioma filtrado.csv")
 
 
 
-GWAS_4 <- as.data.frame(read_excel("GWAS 4 microbioma EU_raw.xlsx"))
+GWAS_4 <- as.data.frame(read_excel("GWAS 4 microbioma EU_raw.xlsx")) #Summary statistics from selected GWAS 4
 head(GWAS_4)
 names(GWAS_4)
 
