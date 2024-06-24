@@ -1,2 +1,22 @@
---> Explicación de la estructura del repositorio en 1/2 frases de qué va el proyecto pero mayoritariamente explicar la estructura
-Y en el último apartado de la estructura poner la bibliografía del poster
+This repository contains all the code runned in the research project "Characterising the causal effects of the Gut Microbiota on Parkinson’s Disease risk: A Mendelian Randomization study"
+
+INDEX AND STRUCTURE OF THE REPOSITORY
+1) Selected GWAS: This folder is divided into 2 subfolders, one for the filtering of the studies extracted from GWAS Catalog and a second one for the SNPs filtering of these studies.
+
+2) Main_analysis: This folder contains every step of the main analysis and the sensitivity analysis on EAS population.
+    Divided as exposure data preparation, outcome data preparation, harmonization and the MR analysis that lead to the results exposed.
+
+3) Reverse MR: Contains the code for the reverse MR analysis until the instrumental variable selection step, where no IVs were obtained.
+4) Mediation: Contains all the code runned to obtain the results for mediatiors.
+5) Data visualization: Consists of the code runned to obtain the exposed figures.
+
+
+POSTER BIBLIOGRAPHY
+1) Zhang X, Tang B, Guo J. Parkinson's disease and gut microbiota: from clinical to mechanistic and therapeutic studies. Transl Neurodegener. 2023 Dec 15;12(1):59. doi: 10.1186/s40035-023-00392-8. PMID: 38098067; PMCID: PMC10722742.
+2) Mou, Y., Du, Y., Zhou, L., Yue, J., Hu, X., Liu, Y., Chen, S., Lin, X., Zhang, G., Xiao, H., & Dong, B. (2022). Gut Microbiota Interact With the Brain Through Systemic Chronic Inflammation: Implications on Neuroinflammation, Neurodegeneration, and Aging. Frontiers in immunology, 13, 796288. https://doi.org/10.3389/fimmu.2022.796288
+3) Williams GP, Schonhoff AM, Jurkuvenaite A, Gallups NJ, Standaert DG, Harms AS. CD4 T cells mediate brain inflammation and neurodegeneration in a mouse model of Parkinson's disease. Brain. 2021 Aug 17;144(7):2047-2059. doi: 10.1093/brain/awab103. PMID: 33704423; PMCID: PMC8370411.
+4) Schaffner A, Li X, Gomez-Llorente Y, Leandrou E, Memou A, Clemente N, Yao C, Afsari F, Zhi L, Pan N, Morohashi K, Hua X, Zhou MM, Wang C, Zhang H, Chen SG, Elliott CJ, Rideout H, Ubarretxena-Belandia I, Yue Z. Vitamin B12 modulates Parkinson's disease LRRK2 kinase activity through allosteric regulation and confers neuroprotection. Cell Res. 2019 Apr;29(4):313-329. doi: 10.1038/s41422-019-0153-8. Epub 2019 Mar 11. PMID: 30858560; PMCID: PMC6462009.
+5) Jiang, L., Li, J. C., Tang, B. S., & Guo, J. F. (2023). Associations between gut microbiota and Parkinson disease: A bidirectional Mendelian randomization analysis. European journal of neurology, 30(11), 3471–3477. https://doi.org/10.1111/ene.15848
+6) Li, Z., Lu, G., Luo, E., Wu, B., Li, Z., Guo, J., Xia, Z., Zheng, C., Su, Q., Zeng, Y., Chan, W. Y., Su, X., Qiu, X., Zheng, X., Cai, Q., Xu, Y., Chen, Y., Fan, Y., Chen, W., Yu, Z., … Luo, X. (2022). Oral, Nasal, and Gut Microbiota in Parkinson's Disease. Neuroscience, 480, 65–78. https://doi.org/10.1016/j.neuroscience.2021.10.011
+7) Ning, J., Huang, S. Y., Chen, S. D., Zhang, Y. R., Huang, Y. Y., & Yu, J. T. (2022). Investigating Casual Associations Among Gut Microbiota, Metabolites, and Neurodegenerative Diseases: A Mendelian Randomization Study. Journal of Alzheimer's disease : JAD, 87(1), 211–222. https://doi.org/10.3233/JAD-215411
+8) Fusco W, Lorenzo MB, Cintoni M, Porcari S, Rinninella E, Kaitsas F, Lener E, Mele MC, Gasbarrini A, Collado MC, Cammarota G, Ianiro G. Short-Chain Fatty-Acid-Producing Bacteria: Key Components of the Human Gut Microbiota. Nutrients. 2023 May 6;15(9):2211. doi: 10.3390/nu15092211. PMID: 37432351; PMCID: PMC10180739.
