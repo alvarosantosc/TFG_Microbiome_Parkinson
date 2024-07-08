@@ -1,8 +1,9 @@
-***"Characterising the causal effects of the Gut Microbiota on Parkinson’s Disease risk: A Mendelian Randomization study"***
+**Characterising the causal effects of the Gut Microbiota on Parkinson’s Disease risk: A Mendelian Randomization study**
 
-*Álvaro Santos Cuerva*
+**Álvaro Santos Cuerva**
 
 *Undergraduate Degree in Biotechnology, Universidad Francisco de Vitoria (Madrid, Spain)*
+
 
 **ABSTRACT**
 
@@ -10,6 +11,7 @@
 **Methods:** A two-sample Mendelian randomization (MR) study was performed employing summary statistics from publicly available genome-wide association studies in populations of European ancestry. In the main analyses, the causal effects of the abundance of gut microbial populations on PD risk were assessed. In secondary analyses, proteins in the IL-17 pathway and vitamin B12 were evaluated as potential mediators of the association.
 **Results:** Twenty-two bacterial taxa were found to have potential causal effects on PD risk. Increased levels of three different taxa in the Bifidobacteriaceae family correlated with a decreased PD risk (OR = 0.76, [95% CI: 0.78; 0.81]). Twelve taxa were in the Clostridia class, ten of which were associated with an increased PD risk (ORs ranged from 1.15 to 4.57). The Rhodospirillales order and the Rikenellaceae family were also associated with a higher PD risk, while Ensifer, Akkermansia and Escherichia/Shigella genera were associated with a decreased PD risk. Interestingly, every bacteria taxon that suggested a causal effect on PD risk is a short chain fatty acids (SCFAs) producer, except the Rhodospirillales order, the Escherichia/Shigella genus and the Ensifier genus. Secondary analyses did not support a causal role of the proposed mediators on risk of PD.
 **Conclusion:** These results support that the abundance of certain gut bacteria may influence PD risk. Particularly, they suggest a protective role of the Bifidobacteriaceae family and a detrimental effect of the Clostridia class. While the initially proposed mediators did not show an association with PD, SCFAs arise as valuable candidates. Further studies are needed to validate these results and understand the mechanisms by which certain bacteria influence PD risk.
+
 
 **KEY MESSAGES**
 
@@ -24,6 +26,7 @@
 ###################link to presentation here
 
 ###################link to poster
+
 
 **POSTER BIBLIOGRAPHY**
 
