@@ -1,14 +1,14 @@
-*"Characterising the causal effects of the Gut Microbiota on Parkinson’s Disease risk: A Mendelian Randomization study"*
-Álvaro Santos Cuerva
-Undergraduate Degree in Biotechnology, Universidad Francisco de Vitoria (Madrid, Spain)
+***"Characterising the causal effects of the Gut Microbiota on Parkinson’s Disease risk: A Mendelian Randomization study"***
+*Álvaro Santos Cuerva*
+*Undergraduate Degree in Biotechnology, Universidad Francisco de Vitoria (Madrid, Spain)*
 
-ABSTRACT
-Background: Some studies have suggested a causal association between gut microbiome and Parkinson’s disease (PD). However, both the particular microbial populations and mechanisms by which they influence PD remain unclear. Interleukin-17 (IL-17) and vitamin B12 have been proposed as potential mediators for this interaction, given the immune component of PD and the role of vitamin B12 in neurological function, respectively.
-Methods: A two-sample Mendelian randomization (MR) study was performed employing summary statistics from publicly available genome-wide association studies in populations of European ancestry. In the main analyses, the causal effects of the abundance of gut microbial populations on PD risk were assessed. In secondary analyses, proteins in the IL-17 pathway and vitamin B12 were evaluated as potential mediators of the association.
-Results: Twenty-two bacterial taxa were found to have potential causal effects on PD risk. Increased levels of three different taxa in the Bifidobacteriaceae family correlated with a decreased PD risk (OR = 0.76, [95% CI: 0.78; 0.81]). Twelve taxa were in the Clostridia class, ten of which were associated with an increased PD risk (ORs ranged from 1.15 to 4.57). The Rhodospirillales order and the Rikenellaceae family were also associated with a higher PD risk, while Ensifer, Akkermansia and Escherichia/Shigella genera were associated with a decreased PD risk. Interestingly, every bacteria taxon that suggested a causal effect on PD risk is a short chain fatty acids (SCFAs) producer, except the Rhodospirillales order, the Escherichia/Shigella genus and the Ensifier genus. Secondary analyses did not support a causal role of the proposed mediators on risk of PD.
-Conclusions: These results support that the abundance of certain gut bacteria may influence PD risk. Particularly, they suggest a protective role of the Bifidobacteriaceae family and a detrimental effect of the Clostridia class. While the initially proposed mediators did not show an association with PD, SCFAs arise as valuable candidates. Further studies are needed to validate these results and understand the mechanisms by which certain bacteria influence PD risk.
+**ABSTRACT**
+**Background:** Some studies have suggested a causal association between gut microbiome and Parkinson’s disease (PD). However, both the particular microbial populations and mechanisms by which they influence PD remain unclear. Interleukin-17 (IL-17) and vitamin B12 have been proposed as potential mediators for this interaction, given the immune component of PD and the role of vitamin B12 in neurological function, respectively.
+**Methods:** A two-sample Mendelian randomization (MR) study was performed employing summary statistics from publicly available genome-wide association studies in populations of European ancestry. In the main analyses, the causal effects of the abundance of gut microbial populations on PD risk were assessed. In secondary analyses, proteins in the IL-17 pathway and vitamin B12 were evaluated as potential mediators of the association.
+**Results:** Twenty-two bacterial taxa were found to have potential causal effects on PD risk. Increased levels of three different taxa in the Bifidobacteriaceae family correlated with a decreased PD risk (OR = 0.76, [95% CI: 0.78; 0.81]). Twelve taxa were in the Clostridia class, ten of which were associated with an increased PD risk (ORs ranged from 1.15 to 4.57). The Rhodospirillales order and the Rikenellaceae family were also associated with a higher PD risk, while Ensifer, Akkermansia and Escherichia/Shigella genera were associated with a decreased PD risk. Interestingly, every bacteria taxon that suggested a causal effect on PD risk is a short chain fatty acids (SCFAs) producer, except the Rhodospirillales order, the Escherichia/Shigella genus and the Ensifier genus. Secondary analyses did not support a causal role of the proposed mediators on risk of PD.
+**Conclusion:** These results support that the abundance of certain gut bacteria may influence PD risk. Particularly, they suggest a protective role of the Bifidobacteriaceae family and a detrimental effect of the Clostridia class. While the initially proposed mediators did not show an association with PD, SCFAs arise as valuable candidates. Further studies are needed to validate these results and understand the mechanisms by which certain bacteria influence PD risk.
 
-KEY MESSAGES
+**KEY MESSAGES**
 - I identified 22 gut microbial taxa suggestively associated with PD risk. Findings provide genetic evidence supportive of changes in the abundance of gut bacteria as a predisposing factor for PD risk. 
 - Bacteria in the Clostridia class were mostly associated with higher PD risk, while the Bifidobacteriaceae family showed protective effects, in agreement with previous findings. 
 - This is the first study to assess the causal associations between gut bacteria and PD risk, and biomarkers IL-17 and vitamin B12 as potential mediators; therefore it offers new insights into PD pathophysiology. 
@@ -21,7 +21,7 @@ KEY MESSAGES
 
 ###################link to poster
 
-*POSTER BIBLIOGRAPHY*
+**POSTER BIBLIOGRAPHY**
 1) Zhang X, Tang B, Guo J. Parkinson's disease and gut microbiota: from clinical to mechanistic and therapeutic studies. Transl Neurodegener. 2023 Dec 15;12(1):59. doi: 10.1186/s40035-023-00392-8. PMID: 38098067; PMCID: PMC10722742.
 2) Mou, Y., Du, Y., Zhou, L., Yue, J., Hu, X., Liu, Y., Chen, S., Lin, X., Zhang, G., Xiao, H., & Dong, B. (2022). Gut Microbiota Interact With the Brain Through Systemic Chronic Inflammation: Implications on Neuroinflammation, Neurodegeneration, and Aging. Frontiers in immunology, 13, 796288. https://doi.org/10.3389/fimmu.2022.796288
 3) Williams GP, Schonhoff AM, Jurkuvenaite A, Gallups NJ, Standaert DG, Harms AS. CD4 T cells mediate brain inflammation and neurodegeneration in a mouse model of Parkinson's disease. Brain. 2021 Aug 17;144(7):2047-2059. doi: 10.1093/brain/awab103. PMID: 33704423; PMCID: PMC8370411.
