@@ -14,20 +14,17 @@ library(dplyr)
 #Read data
 #########################
 
-GWAS_microbiome <- read_tsv("GWAS microbiome_raw.tsv") #Downloaded studies from GWAS Catalog EFO_0007874
-GWAS_microbiome <- as.data.frame(GWAS_microbiome)
-head(GWAS_microbiome)
-names(GWAS_microbiome)
-dim(GWAS_microbiome)
-rm(GWAS_microbiome)
+GWAS <- read_tsv("GWAS microbiome_raw.tsv") #Downloaded studies from GWAS Catalog for EFO_0007874
+GWAS <- as.data.frame(GWAS)
+head(GWAS)
+names(GWAS)
+dim(GWAS)
 dim(GWAS)
 
 
 #########################
 #QC 
 #########################
-
-
 
 length(levels(as.factor(GWAS$reportedTrait)))
 length(GWAS$reportedTrait) - length(levels(as.factor(GWAS$reportedTrait)))
@@ -118,7 +115,7 @@ tail(GWAS_EU)
 table(GWAS_EU$pubmedId, GWAS_EU$discoverySampleAncestry, useNA = "always")
 table(GWAS_EU$pubmedId, GWAS_EU$initialSampleDescription, useNA = "always")
 
-#Do something about duplicated studies 
+#What to do about duplicated studies 
 length(which(duplicated(GWAS_EU$reportedTrait)))
 GWAS_EU[which(GWAS_EU$reportedTrait==GWAS_EU[which(duplicated(GWAS_EU$reportedTrait))[1],c("reportedTrait")]), #this trait comes from 2 different studies
                            c("reportedTrait", "pubmedId")]  #this trait comes from 3 different studies, so keep all at this stage
@@ -129,6 +126,7 @@ GWAS_EU[which(GWAS_EU$reportedTrait==GWAS_EU[which(duplicated(GWAS_EU$reportedTr
 
 length(unique(GWAS_EU$pubmedId))
 table(GWAS_EU$pubmedId, useNA = "always")
+
 #Save dataset
 GWAS_EU <- GWAS_EU[,c("firstAuthor","publicationDate","journal","title","pubmedId",                  
                         "reportedTrait",
@@ -136,7 +134,7 @@ GWAS_EU <- GWAS_EU[,c("firstAuthor","publicationDate","journal","title","pubmedI
                         "replicationSampleAncestry","replicateSampleDescription")]
 write.table(GWAS_EU,"Europeans_microbiome_GWAS_noduplis.csv", sep = "\t", row.names = F) 
 
-#Getting only those studies with a sample size higher than 1000
+#Get only those studies with a sample size higher than 1000
 GWAS_EU_minN1000 <- as.data.frame(subset(GWAS_EU, sample_size >= 1000))
 table(GWAS_EU_minN1000$sample_size)
 length(unique(GWAS_EU_minN1000$pubmedId))
@@ -144,7 +142,7 @@ table(GWAS_EU_minN1000$pubmedId, useNA = "always")
 
 write.table(GWAS_EU_minN1000,"Europeans_microbiome_GWAS_noduplis_N1000.csv", sep = "\t", row.names = F) 
 
-#Save IDs of the selected GWAS
+#Save PubmedIDs of the selected GWAS
 GWAS_EU_minN1000_ids <- GWAS_EU_minN1000[!duplicated(GWAS_EU_minN1000$pubmedId),c("firstAuthor","publicationDate","journal","title","pubmedId")]
 write.table(GWAS_EU_minN1000_ids,"Europeans_microbiome_GWAS_noduplis_studies.csv", sep = "\t", row.names = F) 
 
