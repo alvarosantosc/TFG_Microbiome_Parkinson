@@ -1,21 +1,21 @@
 This repository contains all the code runned in the research project "Characterising the causal effects of the Gut Microbiota on Parkinson’s Disease risk: A Mendelian Randomization study"
 
 #################
-Analysis overview
+**Analysis overview**
 #################
 
 Mendelian Randomization Study of gut bacteria on Parkinson's disease (PD) and follow-up analyses
 
 ################add graphical abstract
 
-Analysis components
+***Analysis components***
 #################
 
 1.- Hypothesis-free Mendelian Randomization discovery study - gut bacterial taxa analysed in publicly available GWAS
 
 2.- Hypothesis-driven follow up studies - sensitivity and mediation analyses
 
-Required Data files:
+***Required Data files***
 #################
 
 - Summary statistics of the exposure GWAS (gub microbiota)
@@ -24,7 +24,7 @@ Required Data files:
 - Summary statistics of the GWAS of IL-17 proteins
 - Summary statistics of the GWAS of vitamin B12
 
-Required software and R packages
+***Required software and R packages***
 #################
 
 - R ###version
@@ -32,7 +32,7 @@ Required software and R packages
 - ################add all necessary packages
 
 #################
-Directory structure
+**Directory structure**
 #################
 
 1) Selected GWAS: This folder is divided into 2 subfolders, one for the filtering of the studies extracted from GWAS Catalog and a second one for the SNPs filtering of these studies.
